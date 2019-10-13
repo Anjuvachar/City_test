@@ -18,8 +18,8 @@ ActiveRecord::Schema.define(version: 2019_10_13_115853) do
     t.string "country", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.decimal "latitude", precision: 8, scale: 6
-    t.decimal "longitude", precision: 8, scale: 6
+    t.float "latitude"
+    t.float "longitude"
   end
 
 end
