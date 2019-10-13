@@ -1,0 +1,1 @@
+CITY_DETAILS_HTML_URL = "https://www.latlong.net/category/cities-102-15.html"
