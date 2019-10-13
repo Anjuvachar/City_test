@@ -1,24 +1,17 @@
-# README
+CityTestApp
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+1) Clone the repository:
 
-Things you may want to cover:
+$ git clone https://github.com/Anjuvachar/City_test
 
-* Ruby version
+2) Navigate into cloned repository folder:
 
-* System dependencies
+$ cd CityTestApp
 
-* Configuration
+3) Install Dependencies
 
-* Database creation
+$ bundle
 
-* Database initialization
+4) Setup database
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+$ rails db:create db:migrate
